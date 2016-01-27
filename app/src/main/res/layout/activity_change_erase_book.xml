@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView_chg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="fill"
+            android:orientation="vertical"
+            android:id="@+id/info_layout_chg"
+            android:weightSum="1">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nazivET_chg"
+                android:hint="@string/naziv_hint"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/autorET_chg"
+                android:hint="@string/autor_hint"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/isbnET_chg"
+                android:hint="@string/isbn_hint"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"/>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose status"
+                    android:id="@+id/textView2_chg"
+                    android:textSize="18.6dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="4dp"/>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner_chg"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/brojStrET_chg"
+                android:layout_marginTop="10dp"
+                android:hint="@string/number_of_pages_hint"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/opisET_chg"
+                android:layout_weight="0.25"
+                android:hint="@string/description_hint"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pick book release date"
+                android:id="@+id/textView_chg"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="4dp"
+                android:textSize="18.6dp"/>
+
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:id="@+id/datumDP_chg"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.29"
+                android:weightSum="1">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Change book"
+                    android:id="@+id/changeBookBT"
+                    android:layout_weight="0.5"
+                    android:onClick="promijeniKnjigu"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Erase Book"
+                    android:id="@+id/eraseBookBT"
+                    android:layout_weight="0.5"
+                    android:onClick="obrisiKnjigu"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

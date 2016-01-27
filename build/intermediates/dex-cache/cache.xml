@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zlatan/Documents/priv/MyLib/app/build/intermediates/exploded-aar/com.embarkmobile/zxing-android-minimal/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="37064eecdb827788e50302f6e1b094541a831760">
+        <dex dex="/Users/zlatan/Documents/priv/MyLib/app/build/intermediates/pre-dexed/debug/classes-ab2529c25e5cb7d1eac4f7e1e34ba4f5b30189f3.jar" />
+    </item>
+    <item
+        jar="/Users/zlatan/Documents/priv/MyLib/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/zlatan/Documents/priv/MyLib/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-f2996a004bb4972ba1e4538257a8854119330249.jar" />
+    </item>
+    <item
+        jar="/Users/zlatan/Documents/priv/MyLib/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/zlatan/Documents/priv/MyLib/app/build/intermediates/pre-dexed/debug/classes-81fd9d1bf3b856a3ddfc79d28f2e10d4b90ff221.jar" />
+    </item>
+    <item
+        jar="/Users/zlatan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/zlatan/Documents/priv/MyLib/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-4f862f988c075aeafce18cc6d37cf5dcaaf8f593.jar" />
+    </item>
+    <item
+        jar="/Users/zlatan/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/2.2/cba0b93b0072105d808ef7a00a107a4eb97874e7/core-2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cba0b93b0072105d808ef7a00a107a4eb97874e7">
+        <dex dex="/Users/zlatan/Documents/priv/MyLib/app/build/intermediates/pre-dexed/debug/core-2.2-35c0bd6e9bf04ccdc9b84830139306e34f2e036b.jar" />
+    </item>
+    <item
+        jar="/Users/zlatan/Documents/priv/MyLib/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/zlatan/Documents/priv/MyLib/app/build/intermediates/pre-dexed/debug/classes-d193919d7477d8ba2e8858e7171fc3fddd6c4c71.jar" />
+    </item>
+
+</items>
